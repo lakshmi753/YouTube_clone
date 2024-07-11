@@ -1,0 +1,59 @@
+body {
+  margin-top: 55px;
+  padding-top: 40px;
+  margin-left: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(243, 242, 242);
+  padding-bottom: 10px;
+}
+
+/* paragraph--styles */
+
+p {
+  font-family: Roboto, Arial;
+}
+
+/* <a></a> styles for viedo--titles */
+
+.video--title:link {
+  text-decoration: none;
+  color: black;
+}
+
+.video--title:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.video--title:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.video--title:active {
+  text-decoration: none;
+  color: black;
+}
+
+/* <a></a> styles for viedo--channels */
+
+.video--channel:link {
+  text-decoration: none;
+  color: rgb(162, 162, 162);
+}
+
+.video--channel:visited {
+  text-decoration: none;
+  color: rgb(162, 162, 162);
+}
+
+.video--channel:hover {
+  text-decoration: none;
+  color: rgb(162, 162, 162);
+}
+
+.video--channel:active {
+  text-decoration: none;
+  color: rgb(162, 162, 162);
+}

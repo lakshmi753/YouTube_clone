@@ -1,0 +1,44 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 55px;
+  left: 0;
+  bottom: 0;
+  width: 80px;
+  background-color: white;
+  z-index: 300px;
+}
+.sidebar-icon-container {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.sidebar-icon-container:hover {
+  background-color: rgb(220, 217, 217);
+}
+
+/* instead of using a common class to style all the icon-pics
+  we use class of the "div" in which the images are :corner-present
+  and the use the "img" element to style aal the "images"
+  like ---> "
+  .sidebar-icon-container img {
+    width: 27px;
+    height: 27px;
+    margin-bottom: 5px;
+  }" */
+
+.sidebar-icon-pic {
+  width: 27px;
+  height: 27px;
+  margin-bottom: 5px;
+}
+.sidebar-icon-name {
+  font-family: Roboto, Arial;
+  font-size: 10px;
+}
